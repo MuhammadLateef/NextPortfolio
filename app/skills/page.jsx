@@ -76,7 +76,7 @@ const page = () => {
                     skillData.map((items, id) => (
                         <div key={id} className="lg:w-[12%] md:w-[20%] sm:w-[23%] w-[40%] md:my-8 mt-8 md:mx-2 mx-4">
                             <div className=" flex items-center flex-col">
-                             <a href="#"><Image width={10} height={10} className='h-20 w-20' src={items.logo} alt='img' /></a>   
+                             <a href="#" className='transition duration-delay-200 hover:scale-105'><Image width={10} height={10} className='h-20 w-20' src={items.logo} alt='img' /></a>   
                                 <p className='font-semibold my-4 text-contentc'>{items.title}</p>
                             </div>
                         </div>

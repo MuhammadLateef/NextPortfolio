@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image';
-import work1 from "../../public/Assets/images/Home/Work/work1.png";
-import work2 from "../../public/Assets/images/Home/Work/work2.png";
-import work3 from "../../public/Assets/images/Home/Work/work3.png";
-import work4 from "../../public/Assets/images/Home/Work/readmore.svg";
+import work1 from "../../public/Assets/images/Home/work/work1.png";
+import work2 from "../../public/Assets/images/Home/work/work2.png";
+import work3 from "../../public/Assets/images/Home/work/work3.png";
+import work4 from "../../public/Assets/images/Home/work/readmore.svg";
 const page = () => {
     return (
         <div>
