@@ -66,7 +66,7 @@ const skillData = [
 ]
 const page = () => {
     return (
-        <div className='bg-dark'>
+        <div className='bg-dark' id='skills'>
             <h1 className="mt-20 mb-4 text-contentc text-[14px] font-medium rounded-full py-[4px] px-[20px] bg-[#374151] text-center lg:w-[8%] md:w-[20%] w-[40%] mx-auto">Skills</h1>
             <div className="w-[90%] mx-auto text-center">
                 <p  className=' my-4 text-contentc text-[20px]'>The skills, tools and technologies I am really good at:</p>

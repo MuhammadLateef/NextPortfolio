@@ -6,15 +6,17 @@ import Expericence from "./Experience/page";
 import Work from "./Work/page";
 import Testamonial from "./Testimunial/page";
 export default function Home() {
+
   return (
 
-    <main className="">
+    <div className="">
         <Homepage />
         <Aboutus />
         <Skills />
         <Expericence />
         <Work />
         <Testamonial />
-    </main>
+    </div>
   )
 }
+

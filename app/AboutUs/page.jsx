@@ -4,7 +4,7 @@ import Image from 'next/image'
 const page = () => {
     return (
         <div>
-            <div className="bg-[#111827] py-8">
+            <div className="bg-[#111827] py-8" id='aboutus'>
                 <div className="max-w-[85rem] mx-auto min-h-screen">
                     <h1 className="my-12 text-contentc text-[14px] font-medium rounded-full py-[4px] px-[20px] bg-[#374151] text-center lg:w-[8%] md:w-[20%] w-[40%] mx-auto">About Me</h1>
                     <div className="w-[100%] py-8 flex lg:flex-row flex-col justify-between items-center text-contentc">
